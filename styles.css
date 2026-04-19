@@ -139,6 +139,52 @@
     box-shadow: var(--shadow-xl), inset 0 1px 0 rgba(255, 255, 255, 0.22);
 }
 
+/* Footer dark modda da KOYU kalsin (her zaman koyu tema gibi) */
+[data-theme='dark'] .footer {
+    background: #0b1220;
+    color: #d1d5db;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+[data-theme='dark'] .footer-branding,
+[data-theme='dark'] .footer-links h4,
+[data-theme='dark'] .footer-social h4 {
+    color: #ffffff;
+}
+
+[data-theme='dark'] .footer-brand p,
+[data-theme='dark'] .footer-links a {
+    color: #9ca3af;
+}
+
+[data-theme='dark'] .footer-links a:hover {
+    color: #ffffff;
+}
+
+[data-theme='dark'] .footer-bottom {
+    color: #6b7280;
+    border-top-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme='dark'] .social-icons a {
+    color: #d1d5db;
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme='dark'] .social-icons a:hover {
+    background: #ffffff;
+    color: #0f172a;
+}
+
+[data-theme='dark'] .footer-policy-link {
+    color: #9ca3af;
+}
+
+[data-theme='dark'] .footer-policy-link:hover {
+    color: #ffffff;
+}
+
 .theme-toggle {
     width: 34px;
     height: 34px;
