@@ -1488,7 +1488,7 @@ ul {
 
 .sponsor-box {
     border: 1px solid var(--white-border);
-    background: linear-gradient(135deg, #ffffff 0%, #f5f7fa 70%);
+    background: var(--gradient-white);
     border-radius: var(--radius-2xl);
     text-align: center;
     padding: 46px 28px;
