@@ -258,6 +258,13 @@
     const renderLogos = () => {
         teamLogoEls.forEach((el) => { el.src = state.logos.team; });
         if (teknofestLogoEl) teknofestLogoEl.src = state.logos.teknofest;
+        const teamLogoUrl = state.logos.team;
+        if (teamLogoUrl) {
+            document.querySelectorAll('link[rel="icon"], link[rel="apple-touch-icon"], link[rel="mask-icon"]').forEach((link) => {
+                link.setAttribute('href', teamLogoUrl);
+                if (link.hasAttribute('type')) link.removeAttribute('type');
+            });
+        }
     };
 
     const escapeHtml = (value) => String(value || '')

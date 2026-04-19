@@ -125,6 +125,20 @@
         linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
 }
 
+/* Dark modda btn-primary: gray-900 = beyaz oldugu icin metin gorunmuyor.
+   Accent (mavi) arkaplan + beyaz metin ile yuksek kontrast saglariz. */
+[data-theme='dark'] .btn-primary {
+    background: var(--accent);
+    color: #ffffff;
+    box-shadow: var(--shadow-lg), inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+[data-theme='dark'] .btn-primary:hover {
+    background: var(--accent-dark);
+    color: #ffffff;
+    box-shadow: var(--shadow-xl), inset 0 1px 0 rgba(255, 255, 255, 0.22);
+}
+
 .theme-toggle {
     width: 34px;
     height: 34px;
