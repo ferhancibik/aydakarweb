@@ -1,0 +1,38 @@
+# =====================================================
+#  AYDAKAR TEAM - .gitignore
+# =====================================================
+
+# Ortam degiskenleri (Gmail App Password vb. SIRRLAR icerir!)
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Yuklenen dosyalar
+# Render Free Tier'da persistent disk olmadigi icin uploads/ klasorunu
+# REPO'YA dahil ediyoruz, boylece deploy sonrasi gorsellerimiz korunur.
+# Yeni gorsel eklemek icin: lokal'de admin panelinden ekle, sonra git push.
+# uploads/   <-- Render Free Tier kullanildigi icin commented out
+
+# Calisma zamani veri dosyalari (production'da disk uzerinde tutulur)
+data/sessions.json
+data/analytics.json
+data/contact-messages.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Build / log
+*.log
+dist/
+build/

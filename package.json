@@ -1,0 +1,27 @@
+{
+  "name": "teknofest-site",
+  "version": "1.0.0",
+  "description": "Profesyonel, beyaz tonlarda, gölgelendirilmiş ve 360° döndürülebilir 3D model görüntüleyicisine sahip modern bir takım sitesi.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "helmet": "^8.1.0",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.5",
+    "sharp": "^0.34.5"
+  }
+}

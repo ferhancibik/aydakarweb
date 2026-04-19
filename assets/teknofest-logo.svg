@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220">
+  <rect width="220" height="220" rx="40" fill="#ffffff"/>
+  <circle cx="110" cy="95" r="58" fill="#f1f5f9" stroke="#cbd5e1" stroke-width="4"/>
+  <path d="M70 95h80M110 55v80" stroke="#0f172a" stroke-width="10" stroke-linecap="round"/>
+  <text x="110" y="197" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">TEKNOFEST</text>
+</svg>

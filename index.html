@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="AYDAKAR TEAM - Isparta Uygulamalı Bilimler Üniversitesi TEKNOFEST 2026 Savaşan İHA Takımı. Yerli ve milli mühendislik çözümleriyle göklere." />
+    <meta name="keywords" content="AYDAKAR, TEKNOFEST, Savaşan İHA, İHA, drone, Isparta, mühendislik, yerli, milli, savunma sanayi" />
+    <meta name="author" content="AYDAKAR TEAM" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta name="robots" content="index, follow" />
+    <title>AYDAKAR TEAM | TEKNOFEST Savaşan İHA 2026</title>
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AYDAKAR TEAM | TEKNOFEST 2026" />
+    <meta property="og:description" content="Isparta Uygulamalı Bilimler Üniversitesi TEKNOFEST Savaşan İHA Takımı - yerli ve milli mühendislik çözümleri." />
+    <meta property="og:image" content="./assets/team-logo.svg" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="AYDAKAR TEAM" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AYDAKAR TEAM | TEKNOFEST 2026" />
+    <meta name="twitter:description" content="Isparta Uygulamalı Bilimler Üniversitesi TEKNOFEST Savaşan İHA Takımı." />
+    <meta name="twitter:image" content="./assets/team-logo.svg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="./assets/team-logo.svg" />
+    <link rel="apple-touch-icon" href="./assets/team-logo.svg" />
+    <link rel="mask-icon" href="./assets/team-logo.svg" color="#0f172a" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="scroll-progress" id="scrollProgress"></div>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <img src="./assets/team-logo.svg" alt="AYDAKAR mini logo" class="nav-team-logo team-logo" />
+                <span>AYDAKAR TEAM</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Ana Sayfa</a></li>
+                <li><a href="#about" class="nav-link">Hakkımızda</a></li>
+                <li><a href="#model" class="nav-link">3D Model</a></li>
+                <li><a href="#projects" class="nav-link">Projeler</a></li>
+                <li><a href="#gallery" class="nav-link">Galeri</a></li>
+                <li><a href="#orgchart" class="nav-link">Organizasyon</a></li>
+                <li><a href="#stack" class="nav-link">Teknoloji</a></li>
+                <li><a href="#roadmap" class="nav-link">Yol Haritası</a></li>
+                <li><a href="#sponsors" class="nav-link">Sponsorlar</a></li>
+                <li><a href="#contact" class="nav-link">İletişim</a></li>
+            </ul>
+            <button class="lang-toggle" id="langToggle" type="button" aria-label="Dil değiştir">
+                <span data-lang-current>TR</span>
+            </button>
+            <button class="theme-toggle" id="themeToggle" type="button" aria-label="Tema değiştir">
+                <svg class="icon-sun" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/>
+                    <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
+                <svg class="icon-moon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            <button class="nav-toggle" id="navToggle" aria-label="Menü">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <div class="grid-pattern"></div>
+            <div class="glow glow-1"></div>
+            <div class="glow glow-2"></div>
+        </div>
+        <div class="hero-3d-bg" aria-hidden="true">
+            <iframe src='https://my.spline.design/nexbotrobotcharacterconcept-5Z43KtVk3ogmaY7aUvd9gyXS/' frameborder='0' width='100%' height='100%'></iframe>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="pulse-dot"></span>
+                <span>TEKNOFEST SAVAŞAN İHA 2026</span>
+            </div>
+            <div class="hero-logos">
+                <img src="./assets/team-logo.svg" alt="AYDAKAR Logo" class="hero-logo team-logo" />
+                <img src="./assets/teknofest-logo.svg" alt="TEKNOFEST Logo" class="hero-logo teknofest-logo" />
+            </div>
+            <h1 class="hero-title">
+                AYDAKAR TEAM<br />
+                <span class="gradient-text">Yerli Mühendislikle Göklere</span>
+            </h1>
+            <p class="hero-description">
+                Savunma sanayii alanında yerli ve milli çözümler geliştiren, disiplinler arası bir teknoloji takımıyız.
+                Otonom savaşan İHA sistemlerinde tam bağımsızlık vizyonuna katkı sunuyoruz.
+            </p>
+            <div class="hero-buttons">
+                <a href="#model" class="btn btn-primary">
+                    <span>Projemizi Keşfet</span>
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+                <a href="#about" class="btn btn-secondary">
+                    <span>Daha Fazla Bilgi</span>
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number" data-target="13">13</div>
+                    <div class="stat-label">Toplam Üye</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number" data-target="5">5</div>
+                    <div class="stat-label">Yazılım Ekibi</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number" data-target="3">3</div>
+                    <div class="stat-label">Mekanik Ekibi</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number" data-target="3">3</div>
+                    <div class="stat-label">Elektronik Ekibi</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat">
+                    <div class="stat-number" data-target="3">3</div>
+                    <div class="stat-label">Yönetim Ekibi</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Kaydır</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">HAKKIMIZDA</span>
+                <h2 class="section-title">AYDAKAR Kimdir?</h2>
+                <p class="section-subtitle">
+                    Isparta Uygulamalı Bilimler Üniversitesi bünyesinde, Savaşan İHA teknolojileri için çalışan bir ekibiz.
+                </p>
+            </div>
+            <div class="about-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Misyonumuz</h3>
+                    <p>Teorik bilgiyi sahada görev yapabilen yenilikçi hava sistemlerine dönüştürmek ve ülkemizin havacılık teknolojilerine katkı sunmak.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 3V21M3 12H21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Vizyonumuz</h3>
+                    <p>Savaşan İHA teknolojileri alanında güçlü, üretken, rekabetçi ve uzun vadede sürdürülebilir üretim kültürüne sahip bir yapı olmak.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M13 10V3L4 14H11V21L20 10H13Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Çalışma Prensibimiz</h3>
+                    <p>Mekanik, elektronik, yazılım ve tasarım ekiplerini ortak hedefte birleştirerek yüksek performanslı, güvenilir sistemler geliştiriyoruz.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 15C15.866 15 19 11.866 19 8C19 4.13401 15.866 1 12 1C8.13401 1 5 4.13401 5 8C5 11.866 8.13401 15 12 15Z" stroke="currentColor" stroke-width="2"/>
+                            <path d="M8.21 13.89L7 23L12 20L17 23L15.79 13.88" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Hedefimiz</h3>
+                    <p>Yalnızca yarışmaya katılmak değil; saha odaklı, özgün ve sınırları zorlayan çözümlerle Milli Teknoloji Hamlesi'ne değer katmak.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stack Section -->
+    <section class="section stack" id="stack">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">TEKNOLOJİ STACK</span>
+                <h2 class="section-title">Kullandığımız Teknolojiler</h2>
+                <p class="section-subtitle">Saha odaklı geliştirme için modern yazılım, donanım ve simülasyon araçlarını birlikte kullanıyoruz.</p>
+            </div>
+            <div class="stack-grid">
+                <article class="stack-card">
+                    <h3>Yapay Zeka ve Algoritma</h3>
+                    <p>Python tabanlı görüntü işleme, nesne tespiti ve gerçek zamanlı karar mekanizmaları.</p>
+                    <div class="stack-tags">
+                        <span>Python</span><span>OpenCV</span><span>DL Models</span>
+                    </div>
+                </article>
+                <article class="stack-card">
+                    <h3>Gömülü Uçuş Yazılımı</h3>
+                    <p>Düşük gecikmeli uçuş kontrol ve görev davranış algoritmaları için performans odaklı altyapı.</p>
+                    <div class="stack-tags">
+                        <span>C++</span><span>Telemetry</span><span>Control Logic</span>
+                    </div>
+                </article>
+                <article class="stack-card">
+                    <h3>Haberleşme ve Arayüz</h3>
+                    <p>Yüksek trafik veri iletimi ve operatör ekranları için güvenilir, okunabilir sistem yaklaşımı.</p>
+                    <div class="stack-tags">
+                        <span>Go</span><span>React</span><span>Ground Station</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section facts">
+        <div class="container">
+            <div class="facts-grid">
+                <article class="fact-card">
+                    <h3>Saha Odaklı Yaklaşım</h3>
+                    <p>Her tasarım kararını gerçek test verileri ve görev senaryoları ile doğruluyoruz.</p>
+                </article>
+                <article class="fact-card">
+                    <h3>Disiplinler Arası Ekip</h3>
+                    <p>Mekanik, elektronik, yazılım ve yönetim ekipleri tek hedefte entegre çalışır.</p>
+                </article>
+                <article class="fact-card">
+                    <h3>Sürdürülebilir Gelişim</h3>
+                    <p>Her prototip döngüsünde öğrenilenleri sisteme ekleyip bir sonraki sürüme taşıyoruz.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3D Model Section -->
+    <section class="section model-section" id="model">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">3D GÖRSELLEŞTİRME</span>
+                <h2 class="section-title">Projemizi 360° Keşfedin</h2>
+                <p class="section-subtitle">
+                    Mouse ile sürükleyerek geçici uçak modelimizi tüm açılardan inceleyebilirsiniz.
+                </p>
+                <p class="model-security-note">Model KTR'den sonra paylaşılacaktır.</p>
+            </div>
+            <div class="model-wrapper">
+                <div class="model-viewer model-viewer-placeholder" id="modelViewer">
+                    <img src="./assets/team-logo.svg" alt="AYDAKAR logo placeholder" class="model-placeholder-logo team-logo" />
+                </div>
+                <div class="model-info">
+                    <div class="info-badge">İNTERAKTİF</div>
+                    <h3>Projemizin 3D Modeli</h3>
+                    <p>Takımımızın geliştirdiği projenin detaylı 3D modeli burada sergilenmektedir. Modelin üzerinde mouse ile sürükleyerek 360 derece döndürebilir, scroll ile yakınlaştırıp uzaklaştırabilirsiniz.</p>
+                    <ul class="info-list">
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Gerçek zamanlı render
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Yüksek çözünürlük
+                        </li>
+                        <li>
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            Tam kontrol sağlayan kamera
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary" id="resetCamera">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 4V10H7M23 20V14H17M20.49 9C19.9828 7.56678 19.1209 6.2854 17.9845 5.27542C16.8482 4.26543 15.4745 3.55976 13.9917 3.22426C12.5089 2.88875 10.9652 2.93434 9.50481 3.35677C8.04437 3.7792 6.71475 4.56471 5.64 5.64L1 10M23 14L18.36 18.36C17.2853 19.4353 15.9556 20.2208 14.4952 20.6432C13.0348 21.0657 11.4911 21.1112 10.0083 20.7757C8.52547 20.4402 7.1518 19.7346 6.01547 18.7246C4.87913 17.7146 4.01717 16.4332 3.51 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <span>Görünümü Sıfırla</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">PROJELERİMİZ</span>
+                <h2 class="section-title">Teknik Çalışma Alanlarımız</h2>
+                <p class="section-subtitle">
+                    Takımımızın odaklandığı başlıca mühendislik alanları.
+                </p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-media-slot" id="projectMedia0">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M2 7L12 12L22 7" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M12 22V12" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Mekanik</span>
+                        <h3>Tasarım ve Üretim Stratejisi</h3>
+                        <p>Karbon fiber, balsa ve kompozit yapılarla hafiflik-dayanıklılık dengesini optimize eden gövde ve kanat tasarımları.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-media-slot" id="projectMedia1">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M2 12H22M12 2C14.5013 4.73835 15.9228 8.29203 16 12C15.9228 15.708 14.5013 19.2616 12 22C9.49872 19.2616 8.07725 15.708 8 12C8.07725 8.29203 9.49872 4.73835 12 2Z" stroke="currentColor" stroke-width="1.5"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Yazılım ve Haberleşme</span>
+                        <h3>Otonomi ve Hedef Takip</h3>
+                        <p>Python tabanlı görüntü işleme, C++ uçuş algoritmaları ve Go ile yüksek hızlı telemetri altyapısı geliştiriyoruz.</p>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="project-media-slot" id="projectMedia2">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M9 19C9 19 3 17 3 10C3 5 7 3 9 3C11 3 12 5 12 5C12 5 13 3 15 3C17 3 21 5 21 10C21 17 15 19 15 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-category">Elektronik Güç Yönetimi</span>
+                        <h3>Güvenli Elektronik Mimarisi</h3>
+                        <p>Uçuş kontrol kartı, sensör, GPS, ESC ve enerji dağıtım hatlarını EMI korumalı, kararlı ve göreve hazır mimaride kuruyoruz.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">GALERİ</span>
+                <h2 class="section-title">Takım Galerisi</h2>
+                <p class="section-subtitle">
+                    Atölye, saha testleri ve üretim süreçlerinden kareler.
+                </p>
+            </div>
+            <div class="gallery-grid" id="galleryGrid"></div>
+        </div>
+    </section>
+
+    <section class="section orgchart" id="orgchart">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ORGANİZASYON ŞEMASI</span>
+                <h2 class="section-title">Takım Yapımız</h2>
+                <p class="section-subtitle">Yönetimden teknik ekiplere kadar görev dağılımı.</p>
+            </div>
+            <div class="org-layout">
+                <div class="org-photo-wrap">
+                    <img id="orgChartPhoto" class="org-photo" src="" alt="Takım yapısı görseli" />
+                </div>
+                <div class="org-node top">Danışman<br /><strong id="orgAdvisorName">Ahmet Ali Süzen</strong></div>
+                <div class="org-line"></div>
+                <div class="org-node center">Takım Kaptanı<br /><strong id="orgCaptainName">Ferhan Çıbık</strong></div>
+                <div class="org-branches" id="orgBranches"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section roadmap" id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">YOL HARİTASI</span>
+                <h2 class="section-title">TEKNOFEST Süreç Takvimi</h2>
+                <p class="section-subtitle">KTR, DTR ve yarışma günleri dahil tüm kritik süreçlerimizin zaman çizelgesi.</p>
+            </div>
+            <div class="roadmap-timeline" id="roadmapList"></div>
+        </div>
+    </section>
+
+    <section class="section sponsors" id="sponsors">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">SPONSORLARIMIZ</span>
+                <h2 class="section-title">Bize Güvenenler</h2>
+                <p class="section-subtitle">AYDAKAR TEAM'in yanında olan ve geleceğe destek veren değerli kuruluşlar.</p>
+            </div>
+            <div class="sponsors-grid" id="sponsorsGrid"></div>
+        </div>
+    </section>
+
+    <section class="section sponsor-cta">
+        <div class="container">
+            <div class="sponsor-box">
+                <h2>AYDAKAR ile Geleceği Destekleyin</h2>
+                <p>Sponsorluk ve iş birliği teklifleri için ekibimizle iletişime geçebilir, projemize doğrudan katkı sağlayabilirsiniz.</p>
+                <a href="#contact" class="btn btn-primary">Sponsorluk İçin Ulaş</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="contact-box">
+                <div class="section-header">
+                    <span class="section-tag">İLETİŞİM</span>
+                    <h2 class="section-title">İletişim ve Sponsorluk</h2>
+                    <p class="section-subtitle">
+                        Sosyal Medya ve PR Sorumlusu Esra Eskin ile iletişime geçebilirsiniz.
+                    </p>
+                </div>
+                <div class="contact-highlight">
+                    <p><strong>Telefon:</strong> +90 551 956 35 01</p>
+                    <p><strong>E-posta:</strong> aydakarteam@gmail.com</p>
+                </div>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ad Soyad</label>
+                            <input type="text" id="name" placeholder="Adınız Soyadınız" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-posta</label>
+                            <input type="email" id="email" placeholder="ornek@email.com" />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Konu</label>
+                        <input type="text" id="subject" placeholder="Mesaj konusu" />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mesajınız</label>
+                        <textarea id="message" rows="5" placeholder="Mesajınızı buraya yazın..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large" id="contactSubmit">
+                        <span>Mesaj Gönder</span>
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <p class="contact-status" id="contactStatus" aria-live="polite"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-branding">
+                        <img src="./assets/team-logo.svg" alt="AYDAKAR logo" class="team-logo footer-team-logo" />
+                        <span>AYDAKAR TEAM</span>
+                    </div>
+                    <p>Kendi imkanlarıyla prototip üreten, yerli ve özgün çözümler geliştiren genç mühendislerin takımı.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Hızlı Bağlantılar</h4>
+                    <a href="#home">Ana Sayfa</a>
+                    <a href="#about">Hakkımızda</a>
+                    <a href="#projects">Projeler</a>
+                    <a href="#contact">İletişim</a>
+                </div>
+                <div class="footer-social">
+                    <h4>Sosyal Medya</h4>
+                    <div class="social-icons">
+                        <a href="#" id="socialInstagram" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/>
+                                <path d="M16 11.37C16.1234 12.2022 15.9813 13.0522 15.5938 13.799C15.2063 14.5458 14.5931 15.1514 13.8416 15.5297C13.0901 15.9079 12.2384 16.0396 11.4078 15.9059C10.5771 15.7723 9.80976 15.3801 9.21484 14.7852C8.61992 14.1902 8.22773 13.4229 8.09407 12.5922C7.9604 11.7615 8.09208 10.9099 8.47034 10.1584C8.8486 9.40685 9.4542 8.79374 10.201 8.40624C10.9478 8.01874 11.7978 7.87658 12.63 8C13.4789 8.12588 14.2648 8.52146 14.8717 9.12831C15.4785 9.73515 15.8741 10.5211 16 11.37Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M17.5 6.5H17.51" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </a>
+                        <a href="#" id="socialLinkedin" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 AYDAKAR TEAM. Tüm hakları saklıdır.</p>
+                <p>
+                    <a href="#" id="openPrivacy" class="footer-policy-link">Gizlilik Politikası</a>
+                    <span class="footer-dot">•</span>
+                    <a href="#" id="openKvkk" class="footer-policy-link">KVKK Aydınlatma Metni</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="admin-fab hidden-admin-entry" id="openAdmin" type="button" aria-label="Admin Panelini Aç" tabindex="-1">
+        Admin
+    </button>
+    <div id="secretAdminTrigger" class="secret-admin-trigger" aria-hidden="true"></div>
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Yukarı çık">↑</button>
+
+    <div class="policy-modal" id="policyModal" aria-hidden="true">
+        <div class="policy-backdrop" data-action="close-policy"></div>
+        <div class="policy-card">
+            <div class="policy-header">
+                <h3 id="policyTitle">Politika</h3>
+                <button type="button" class="admin-close" data-action="close-policy" aria-label="Kapat">×</button>
+            </div>
+            <div class="policy-body" id="policyBody"></div>
+        </div>
+    </div>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Kapat">×</button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" type="button" aria-label="Önceki">‹</button>
+        <img class="lightbox-image" id="lightboxImage" src="" alt="" />
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" type="button" aria-label="Sonraki">›</button>
+        <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+
+    <section class="admin-panel" id="adminPanel" aria-hidden="true">
+        <div class="admin-backdrop" id="adminBackdrop"></div>
+        <div class="admin-card">
+            <div class="admin-header">
+                <h3>Admin Yönetim Paneli</h3>
+                <button type="button" id="closeAdmin" class="admin-close" aria-label="Kapat">×</button>
+            </div>
+            <div class="admin-body">
+                <form id="adminLoginForm" class="admin-login-form">
+                    <label for="adminPassword">Admin Şifresi</label>
+                    <input id="adminPassword" type="password" placeholder="Şifreyi girin" />
+                    <button class="btn btn-primary" type="submit">Giriş Yap</button>
+                </form>
+                <form id="admin2faForm" class="admin-login-form hidden">
+                    <label for="admin2faCode">2FA Kodu</label>
+                    <input id="admin2faCode" type="password" placeholder="4-8 haneli kod" />
+                    <button class="btn btn-primary" type="submit">Doğrula</button>
+                </form>
+
+                <div id="adminContent" class="admin-content hidden">
+                    <div class="admin-group">
+                        <h4>Logo Güncelleme</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="teamLogoUrl">Takım Logo URL</label>
+                                <input type="text" id="teamLogoUrl" placeholder="./assets/team-logo.svg" />
+                            </div>
+                            <div class="form-group">
+                                <label for="teknofestLogoUrl">TEKNOFEST Logo URL</label>
+                                <input type="text" id="teknofestLogoUrl" placeholder="./assets/teknofest-logo.svg" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="teamLogoFile">Takım Logo Dosyası</label>
+                                <input type="file" id="teamLogoFile" accept="image/*" />
+                            </div>
+                            <div class="form-group">
+                                <label for="teknofestLogoFile">TEKNOFEST Logo Dosyası</label>
+                                <input type="file" id="teknofestLogoFile" accept="image/*" />
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="uploadLogos">Seçili Logoları Yükle</button>
+                        <button type="button" class="btn btn-secondary" id="saveLogos">Logoları Kaydet</button>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>Galeriye Fotoğraf Ekle</h4>
+                        <p class="admin-note">Sürükle-bırak ile sırayı değiştirebilirsin.</p>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="galleryImageUrl">Foto URL</label>
+                                <input type="text" id="galleryImageUrl" placeholder="https://..." />
+                            </div>
+                            <div class="form-group">
+                                <label for="galleryCaption">Açıklama</label>
+                                <input type="text" id="galleryCaption" placeholder="Atölye çalışması" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="galleryImageFile">Foto Dosyası</label>
+                            <input type="file" id="galleryImageFile" accept="image/*" />
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="uploadGalleryImage">Fotoğrafı Yükle (URL alanına ekle)</button>
+                        <button type="button" class="btn btn-secondary" id="addGalleryItem">Galeriye Ekle</button>
+                        <button type="button" class="btn btn-secondary" id="clearGallery">Galeriyi Sıfırla</button>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>Teknik Çalışma Alanları GIF</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="projectGif0Url">Mekanik GIF URL</label>
+                                <input type="text" id="projectGif0Url" placeholder="https://...gif" />
+                            </div>
+                            <div class="form-group">
+                                <label for="projectGif0File">Mekanik GIF Dosyası</label>
+                                <input type="file" id="projectGif0File" accept="image/gif,image/webp,image/png,image/jpeg" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="projectGif1Url">Yazılım GIF URL</label>
+                                <input type="text" id="projectGif1Url" placeholder="https://...gif" />
+                            </div>
+                            <div class="form-group">
+                                <label for="projectGif1File">Yazılım GIF Dosyası</label>
+                                <input type="file" id="projectGif1File" accept="image/gif,image/webp,image/png,image/jpeg" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="projectGif2Url">Elektronik GIF URL</label>
+                                <input type="text" id="projectGif2Url" placeholder="https://...gif" />
+                            </div>
+                            <div class="form-group">
+                                <label for="projectGif2File">Elektronik GIF Dosyası</label>
+                                <input type="file" id="projectGif2File" accept="image/gif,image/webp,image/png,image/jpeg" />
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="uploadProjectGifs">Seçili GIF Dosyalarını Yükle</button>
+                        <button type="button" class="btn btn-secondary" id="saveProjectGifs">GIF URL'lerini Kaydet</button>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>Takım Yapısı Görseli</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="orgChartPhotoUrl">Fotoğraf URL</label>
+                                <input type="text" id="orgChartPhotoUrl" placeholder="https://..." />
+                            </div>
+                            <div class="form-group">
+                                <label for="orgChartPhotoFile">Fotoğraf Dosyası</label>
+                                <input type="file" id="orgChartPhotoFile" accept="image/*" />
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="uploadOrgChartPhoto">Fotoğrafı Yükle</button>
+                        <button type="button" class="btn btn-secondary" id="saveOrgChartPhoto">Fotoğrafı Kaydet</button>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>Organizasyon Şeması Ayarları</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="orgAdvisorInput">Danışman</label>
+                                <input type="text" id="orgAdvisorInput" placeholder="Danışman adı" />
+                            </div>
+                            <div class="form-group">
+                                <label for="orgCaptainInput">Takım Kaptanı</label>
+                                <input type="text" id="orgCaptainInput" placeholder="Takım kaptanı adı" />
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="orgTeamsInput">Ekipler (virgülle ayır)</label>
+                            <input type="text" id="orgTeamsInput" placeholder="Yazılım Ekibi, Mekanik Ekibi, Elektronik Ekibi, Yönetim Ekibi, PR ve Sosyal Medya" />
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="saveOrgSettings">Şemayı Kaydet</button>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>Takım Üyesi Ekle</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="memberName">İsim</label>
+                                <input type="text" id="memberName" placeholder="Üye adı soyadı" />
+                            </div>
+                            <div class="form-group">
+                                <label for="memberTeamSelect">Ekip</label>
+                                <select id="memberTeamSelect"></select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="memberRole">Görev (opsiyonel)</label>
+                            <input type="text" id="memberRole" placeholder="Gömülü Yazılım, PR Sorumlusu..." />
+                        </div>
+                        <div class="form-group">
+                            <label for="memberPhotoUrl">Foto URL (opsiyonel)</label>
+                            <input type="text" id="memberPhotoUrl" placeholder="https://..." />
+                        </div>
+                        <div class="form-group">
+                            <label for="memberPhotoFile">Üye Foto Dosyası</label>
+                            <input type="file" id="memberPhotoFile" accept="image/*" />
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="uploadMemberPhoto">Üye Fotoğrafı Yükle</button>
+                        <button type="button" class="btn btn-secondary" id="addMemberItem">Üye Ekle</button>
+                        <div id="adminMembersList" class="agenda-list"></div>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>Sponsorlar</h4>
+                        <p class="admin-hint">Sponsor adı zorunludur. Logoyu bilgisayarından yüklemen yeterli; URL alanı otomatik dolar. Logo, sitede yuvarlak çerçeve içinde gösterilir.</p>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="sponsorName">Sponsor Adı *</label>
+                                <input type="text" id="sponsorName" placeholder="Örnek Şirket A.Ş." />
+                            </div>
+                            <div class="form-group">
+                                <label for="sponsorWebsite">Web Sitesi (opsiyonel)</label>
+                                <input type="text" id="sponsorWebsite" placeholder="https://..." />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="sponsorLogoFile">Logo Dosyası (önerilen — kare/yuvarlak görsel)</label>
+                                <input type="file" id="sponsorLogoFile" accept="image/*" />
+                            </div>
+                            <div class="form-group">
+                                <label for="sponsorLogoUrl">veya Logo URL</label>
+                                <input type="text" id="sponsorLogoUrl" placeholder="https://... (otomatik dolar)" />
+                            </div>
+                        </div>
+                        <div class="sponsor-preview-row">
+                            <div class="sponsor-preview" id="sponsorPreview" aria-label="Logo önizlemesi">
+                                <span class="sponsor-preview-empty">Önizleme</span>
+                            </div>
+                            <div class="sponsor-preview-actions">
+                                <button type="button" class="btn btn-secondary" id="uploadSponsorLogo">1) Logoyu Yükle</button>
+                                <button type="button" class="btn btn-primary" id="addSponsorItem">2) Sponsoru Ekle</button>
+                            </div>
+                        </div>
+                        <div id="adminSponsorsList" class="agenda-list"></div>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>TEKNOFEST Yol Haritası</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="roadmapTitle">Başlık</label>
+                                <input type="text" id="roadmapTitle" placeholder="KTR Teslimi" />
+                            </div>
+                            <div class="form-group">
+                                <label for="roadmapDate">Tarih</label>
+                                <input type="text" id="roadmapDate" placeholder="20 Mayıs 2026" />
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="roadmapStatus">Durum</label>
+                                <select id="roadmapStatus">
+                                    <option value="upcoming">Yaklaşan</option>
+                                    <option value="active">Devam Eden</option>
+                                    <option value="completed">Tamamlandı</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="roadmapDescription">Açıklama</label>
+                            <textarea id="roadmapDescription" rows="2" placeholder="Süreçle ilgili kısa not..."></textarea>
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="addRoadmapItem">Yol Haritası Adımı Ekle</button>
+                        <div id="adminRoadmapList" class="agenda-list"></div>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>Sosyal Medya Yönlendirmeleri</h4>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="socialInstagramUrl">Instagram URL</label>
+                                <input type="text" id="socialInstagramUrl" placeholder="https://instagram.com/..." />
+                            </div>
+                            <div class="form-group">
+                                <label for="socialLinkedinUrl">LinkedIn URL</label>
+                                <input type="text" id="socialLinkedinUrl" placeholder="https://linkedin.com/..." />
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="saveSocialLinks">Hesap Linklerini Kaydet</button>
+                    </div>
+
+                    <div class="admin-group">
+                        <h4>Güvenlik</h4>
+                        <div class="form-group">
+                            <label for="newAdminPassword">Yeni Admin Şifresi</label>
+                            <input id="newAdminPassword" type="password" placeholder="Yeni şifre" />
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="changeAdminPassword">Şifreyi Değiştir</button>
+                        <div class="form-group">
+                            <label for="newAdmin2faCode">Yeni 2FA Kodu</label>
+                            <input id="newAdmin2faCode" type="password" placeholder="4-8 hane sayi" />
+                        </div>
+                        <button type="button" class="btn btn-secondary" id="changeAdmin2fa">2FA Kodunu Değiştir</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Three.js via CDN (importmap for modern modules) -->
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+
+    <script src="script.js"></script>
+</body>
+</html>

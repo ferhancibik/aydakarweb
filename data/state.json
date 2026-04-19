@@ -1,0 +1,190 @@
+{
+  "adminPasswordHash": "$2b$12$fDMuZtBKVsom1ELvncoX3.DCT20wKZF7zBbT/iy1jsR21m.6if7fq",
+  "adminSecondFactorHash": "$2b$12$RBlYhozitgRECa9mg1ux5uS96o3r0tHcna3i.l/HeHUYZewHNeQti",
+  "logos": {
+    "team": "/uploads/1776619078782-logo11.PNG",
+    "teknofest": "/uploads/1776619079168-teknologo.PNG"
+  },
+  "socialLinks": {
+    "instagram": "#https://www.instagram.com/aydakarsiha?igsh=eGM1eWltcXM1dmJr&utm_source=qr",
+    "twitter": "#",
+    "linkedin": "#https://www.linkedin.com/in/aydakar-team-840095404/",
+    "github": "#"
+  },
+  "orgChart": {
+    "advisorName": "Ahmet Ali Süzen",
+    "captainName": "Ferhan Çıbık",
+    "teams": [
+      "Yazılım Ekibi",
+      "Mekanik Ekibi",
+      "Elektronik Ekibi",
+      "PR ve Sosyal Medya"
+    ]
+  },
+  "projectGifs": [
+    "/uploads/1776619656051-machine.gif",
+    "/uploads/1776619645386-_________________________.gif",
+    "/uploads/1776624536444-indir__1_.jfif"
+  ],
+  "orgChartPhotoUrl": "",
+  "sponsors": [
+    {
+      "name": "Gençlik ve Spor Bakanlığı",
+      "websiteUrl": "",
+      "logoUrl": "/uploads/1776620681837-Gen__lik_ve_Spor_Bakanl______.svg.png"
+    }
+  ],
+  "roadmap": [
+    {
+      "title": "Yarışma Son Başvuru",
+      "date": "28.02.2026",
+      "description": "TEKNOFEST Savaşan İHA başvuru süreci tamamlandı.",
+      "status": "completed"
+    },
+    {
+      "title": "Teknik Yeterlilik Formu (TYF) Teslimi",
+      "date": "24.03.2026 - 17:00",
+      "description": "TYF dökümanı resmi olarak teslim edildi.",
+      "status": "completed"
+    },
+    {
+      "title": "TYF Sonuçlarının Açıklanması",
+      "date": "10.04.2026",
+      "description": "Teknik Yeterlilik Formu sonuçları açıklandı, takımımız geçti.",
+      "status": "completed"
+    },
+    {
+      "title": "Kritik Tasarım Raporu (KTR) Teslimi",
+      "date": "30.04.2026 - 17:00",
+      "description": "Şu an üzerinde çalıştığımız kritik aşama. Detaylı tasarım raporumuz hazırlanıyor.",
+      "status": "active"
+    },
+    {
+      "title": "KTR Sonuçlarının Açıklanması",
+      "date": "22.05.2026",
+      "description": "Kritik Tasarım Raporu değerlendirme sonuçları açıklanacak.",
+      "status": "upcoming"
+    },
+    {
+      "title": "Sistem Tanımlama ve Uçuş Kanıt Videoları",
+      "date": "14.07.2026 - 17:00",
+      "description": "Saha test videoları ve sistem tanımlama dökümanları teslim edilecek.",
+      "status": "upcoming"
+    },
+    {
+      "title": "Finalist Takımların Açıklanması",
+      "date": "31.07.2026",
+      "description": "Yarışmaya finalde katılmaya hak kazanan takımlar duyurulacak.",
+      "status": "upcoming"
+    },
+    {
+      "title": "TEKNOFEST Şanlıurfa - Yarışma",
+      "date": "30 Eylül - 4 Ekim 2026",
+      "description": "Saha yarışması Şanlıurfa'da gerçekleştirilecek.",
+      "status": "upcoming"
+    }
+  ],
+  "gallery": [
+    {
+      "imageUrl": "/uploads/1776618569283-20260301_213416.jpg",
+      "thumbnailUrl": "/uploads/thumbs/thumb-1776618569283-20260301_213416.jpg.webp",
+      "caption": ""
+    },
+    {
+      "imageUrl": "/uploads/1776618556471-IMG_0188.JPG",
+      "thumbnailUrl": "/uploads/thumbs/thumb-1776618556471-IMG_0188.JPG.webp",
+      "caption": ""
+    },
+    {
+      "imageUrl": "/uploads/1776618539588-tak__mfoto2.jpeg",
+      "thumbnailUrl": "/uploads/thumbs/thumb-1776618539588-tak__mfoto2.jpeg.webp",
+      "caption": ""
+    }
+  ],
+  "members": [
+    {
+      "name": "İbrahim Duman",
+      "team": "Mekanik Ekibi",
+      "role": "Mekanik Tasarım ve Entegrasyon Sorumlusu",
+      "photoUrl": ""
+    },
+    {
+      "name": "Begüm Küçüköztürk",
+      "team": "Mekanik Ekibi",
+      "role": "Aerodinamik ve Performans Sorumlusu",
+      "photoUrl": ""
+    },
+    {
+      "name": "Furkan Kodaz",
+      "team": "Mekanik Ekibi",
+      "role": "Yapısal Analiz ve Malzeme Sorumlusu",
+      "photoUrl": ""
+    },
+    {
+      "name": "Hasan Yahya Kahraman",
+      "team": "Mekanik Ekibi",
+      "role": "Üretim Teknolojileri ve Prototipleme Sorumlusu",
+      "photoUrl": ""
+    },
+    {
+      "name": "Hasan Tozlu",
+      "team": "Elektronik Ekibi",
+      "role": "Telemetri ve Gömülü Sistemler Geliştiricisi",
+      "photoUrl": ""
+    },
+    {
+      "name": "Utku Berkay Hatipoğlu",
+      "team": "Elektronik Ekibi",
+      "role": "Aviyonik Sistemler Tasarımcısı",
+      "photoUrl": ""
+    },
+    {
+      "name": "Şevval Çoban",
+      "team": "Yazılım Ekibi",
+      "role": "Yazılım Ekip Lideri",
+      "photoUrl": ""
+    },
+    {
+      "name": "Ömer Taşkın",
+      "team": "Yazılım Ekibi",
+      "role": "Simülasyon Sistemleri Geliştiricisi",
+      "photoUrl": ""
+    },
+    {
+      "name": "Reyyan Çeliköz",
+      "team": "Yazılım Ekibi",
+      "role": "Haberleşme Sistemleri Geliştiricisi",
+      "photoUrl": ""
+    },
+    {
+      "name": "Yunus Emre Erdem",
+      "team": "Yazılım Ekibi",
+      "role": "Yapay Zeka Geliştiricisi",
+      "photoUrl": ""
+    },
+    {
+      "name": "Ceren Yalçınkaya",
+      "team": "Yazılım Ekibi",
+      "role": "Yapay Zeka Geliştiricisi",
+      "photoUrl": ""
+    },
+    {
+      "name": "Esra Eskin",
+      "team": "PR ve Sosyal Medya",
+      "role": "Sosyal Medya ve Pr Sorumlusu",
+      "photoUrl": ""
+    },
+    {
+      "name": "Ferhan Çıbık",
+      "team": "Yönetim Ekibi",
+      "role": "Takım Kaptanı",
+      "photoUrl": ""
+    },
+    {
+      "name": "Ahmet Ali Süzen",
+      "team": "Yönetim Ekibi",
+      "role": "Danışman",
+      "photoUrl": ""
+    }
+  ]
+}
