@@ -86,9 +86,9 @@ const defaultState = {
     teknofest: '/uploads/1776619079168-teknologo.PNG'
   },
   socialLinks: {
-    instagram: '#https://www.instagram.com/aydakarsiha?igsh=eGM1eWltcXM1dmJr&utm_source=qr',
+    instagram: 'https://www.instagram.com/aydakarsiha?igsh=eGM1eWltcXM1dmJr&utm_source=qr',
     twitter: '#',
-    linkedin: '#https://www.linkedin.com/in/aydakar-team-840095404/',
+    linkedin: 'https://www.linkedin.com/in/aydakar-team-840095404/',
     github: '#'
   },
   orgChart: {
